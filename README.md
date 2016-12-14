@@ -1,8 +1,8 @@
 # 微信unblock
 * 作用：
 	* 在Mac版微信中打开没有经过ICP备案的域名时，默认会被微信堵住
-		* 例如： https://weixin110.qq.com/security/newreadtemplate?t=webpage_intercept/w_reason&block_type=1&url=http%3A%2F%2Fwww.baidu.com
-	* 然后点击“跳转”之后，需要再经过微信服务器。反应很慢，体验不好。
+		* 例如： https://weixin110.qq.com/security/newreadtemplate?t=webpage_intercept/w_reason&block_type=1&url=http%3A%2F%2F//www.meilshuo.me
+		* 然后点击“跳转”之后，需要再经过微信服务器。反应很慢，体验不好。
 	* 本Plugin直接截获微信的请求，然后直接跳转到url对应的页面中
 
 ## 安装
@@ -18,3 +18,4 @@
 
 ## 验证
  * 从微信中打开新的URL, 应该能直接访问
+	 * 例如：https://weixin110.qq.com/security/newreadtemplate?t=webpage_intercept/w_reason&block_type=1&url=http%3A%2F%2F//www.meilshuo.me 跳转到: http://www.meilshuo.me/
