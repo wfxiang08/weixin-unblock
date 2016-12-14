@@ -1,0 +1,28 @@
+﻿{
+  "manifest_version": 2,
+  "name": "微信Unblock",
+  "version": "0.0.1",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "16": "wx_16.png",
+    "48": "wx_48.png",
+    "128": "wx_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "wx_19.png",
+      "38": "wx_38.png"
+    },
+    "default_title": "微信Unblock"
+  },
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "https://weixin110.qq.com/*"
+  ]
+}
